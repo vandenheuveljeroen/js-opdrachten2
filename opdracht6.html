@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+    </head>
+    <body>
+      <form>
+              <button type="button" name="button" onclick="display(x)">klik hier</button>
+
+      </form>
+        <script type="text/javascript">
+    /*    let tab = [-2,1,4]
+        let x = prompt("geef een willekeurig getal");
+        let substract= function(x){
+          return (x-(tab[0]));
+        };
+        let display= function(x){
+          if ((x%2)===0){
+            alert("het getal is even");
+          }
+          else if ((x%2)!==0){
+            alert("het getal is oneven")
+          };
+        }; */
+        
+                   let tab = [-2,1,4];
+                   let subtract=function(x){
+                       let answer=x-tab[0];
+                       if (x>=0) {
+                           document.getElementById("antwoord").innerHTML="Getal positief";
+                       } else {
+                           document.getElementById("antwoord").innerHTML="Negatief getal!";
+                       };
+                   };
+                   let display=function(){
+                       //question unclear...
+                   };
+
+        </script>
+    </body>
+</html>

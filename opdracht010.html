@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>"js_oefeningen"</title>
+  </head>
+  <body>
+    <form>
+            <!--<button type="button" name="button" onclick="makeChoice()">klik hier</button>-->
+            <button type="button" name="button" onclick="sum()">klik hier</button>
+    </form>
+<script>
+        let sum = function(){
+          let result = 0;
+          for (let i = 0 ; i<3 ; i++){
+            result += parseInt(prompt("geef een getal in"))
+
+          }
+          alert(result)
+        }
+</script>
+  </body>
+  </html>

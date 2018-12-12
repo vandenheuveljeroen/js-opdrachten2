@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>"js_oefeningen"</title>
+  </head>
+  <body>
+    <form>
+            <button type="button" name="button" onclick="surFaceCirkel()">oppervlakte</button>
+
+    </form>
+<script>
+          function surFaceCirkel(){
+            let straal,pi,oppervlakte;
+            straal = parseInt(prompt("geef de straal van je cirkel in"));
+            pi = Math.PI;
+            oppervlakte = Math.PI*straal*straal;
+              alert("de oppervlakte van je cirkel = " + oppervlakte);
+            }
+</script>
+  </body>
+  </html>

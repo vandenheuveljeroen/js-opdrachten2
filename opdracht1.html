@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+    <title>"js_oefeningen"</title>
+  </head>
+  <body>
+    <form>
+            <button type="button" name="button" onclick="surFaceRectangle()">oppervlakte</button>
+            <button type="button" name="button" onclick="perimeterRectangle()">omtrek</button>
+
+    </form>
+<script>
+          function surFaceRectangle(){
+            let lengte,breedte,oppervlakte;
+            lengte = parseInt(prompt("geef de lengte in"));
+            breedte = parseInt(prompt("geef de breedte in"));
+            oppervlakte = breedte*lengte;
+            alert("breedte= " +breedte+ "lengte = " +lengte+"\n" + "oppervlakte van de rechthoek= " + oppervlakte);
+            }
+          function perimeterRectangle(){
+            let lengte,breedte,omtrek;
+            lengte = parseInt(prompt("geef de lengte in"));
+            breedte = parseInt(prompt("geef de breedte in"));
+            omtrek = (breedte*2)+(lengte*2)
+            alert("breedte= " +breedte+ "lengte = " +lengte+"\n" + "omtrek van de rechthoek= " + omtrek);
+            }
+</script>
+  </body>
+  </html>

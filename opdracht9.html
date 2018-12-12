@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <title>"js_oefeningen"</title>
+  </head>
+  <body>
+    <form>
+            <!--<button type="button" name="button" onclick="makeChoice()">klik hier</button>-->
+            <button type="button" name="button" onclick="testWhile()">klik hier</button>
+    </form>
+<script>
+        let testWhile = function(){
+          let string = prompt("vul een zin in die de letter p bevat");
+          while(!string.includes("p")){
+            string = prompt("vul een zin in die de letter p bevat");
+          }
+        }
+</script>
+  </body>
+  </html>
